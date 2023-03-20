@@ -18,16 +18,16 @@ const NavBar = () => {
     <div className=" w-full min-h-[50px] flex justify-between items-center absolute z-10 bg-gray-700/80 text-white ">
       <ul className="hidden sm:flex px-4 ">
         <li>
-          <a href="/"></a>Home
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="#gallery"></a>Gallery
+          <a href="#gallery">Gallery</a>
         </li>
         <li>
-          <a href="#deals"></a>Deals
+          <a href="#deals">Deals</a>
         </li>
         <li>
-          <a href="#contact"></a>Contact
+          <a href="#contact">Contact</a>
         </li>
       </ul>
       <div className=" flex justify-between ">
@@ -50,16 +50,16 @@ const NavBar = () => {
         }>
         <ul className=" h-full w-full text-center pt-12 ">
           <li className=" text-2xl py-8">
-            <a href="/"></a>Home
+            <a href="/">Home</a>
           </li>
           <li className=" text-2xl py-8">
-            <a href="#gallery"></a>Gallery
+            <a href="#gallery">Gallery</a>
           </li>
           <li className=" text-2xl py-8">
-            <a href="#deals"></a>Deals
+            <a href="#deals">Deals</a>
           </li>
           <li className=" text-2xl py-8">
-            <a href="#contact"></a>Contact
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>

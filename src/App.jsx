@@ -1,6 +1,7 @@
 import React from 'react'
 import Activity from './component/Activity'
 import Booking from './component/Booking'
+import Contact from './component/Contact'
 import Gallery from './component/Gallery'
 import Hero from './component/Hero'
 import NavBar from './component/NavBar'
@@ -17,6 +18,7 @@ function App() {
       <Activity />
       <Booking />
       <Gallery />
+      <Contact />
     </div>
   )
 }
